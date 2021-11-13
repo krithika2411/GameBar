@@ -29,9 +29,19 @@ h3{
 .grid div {
     width: 20px;
     height: 20px;
-    /* color: #111;
-    background: rgb(3, 3, 3);
-    box-shadow: 0 0 100px rgb(217, 255,  0); */
+}
+
+button{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 22vw;
+    background: rgb(238, 217, 217);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Bunch Blossoms Personal Use', sans-serif;
+    border-radius: 50px;   
+    align-items: center;
 }
 
 .pac-dot {
