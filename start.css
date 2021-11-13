@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: auto;
+    background-position: center;
+    font-family: 'Bunch Blossoms Personal Use', sans-serif;                                              
+}
+
+.welcome{
+    width: 350px;
+    height: 400px;
+    background: rgba(8, 8, 8, 0.904);
+    color: rgb(214, 169, 169);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+}
+
+img{
+    width: 100vw;
+    height: max-content;
+    opacity: 85%;
+}
+
+h1{
+    margin: 0%;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bunch Blossoms Personal Use', sans-serif;
+    color: rgb(233, 202, 202);
+}
+
+button{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 22vw;
+    background: rgb(248, 235, 235);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Bunch Blossoms Personal Use', sans-serif;
+    border-radius: 50px;   
+    align-items: center;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Bunch Blossoms Personal Use', sans-serif;
+}
+
