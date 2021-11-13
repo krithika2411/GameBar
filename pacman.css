@@ -29,9 +29,19 @@ h3{
 .grid div {
     width: 20px;
     height: 20px;
-    /* color: #111;
-    background: rgb(3, 3, 3);
-    box-shadow: 0 0 100px rgb(217, 255,  0); */
+}
+
+button{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 20vw;
+    background: rgb(238, 217, 217);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Comfortaa", cursive;
+    border-radius: 50px;   
+    margin-left: 48vh;
 }
 
 .pac-dot {
