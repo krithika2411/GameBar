@@ -1,11 +1,35 @@
 @import url("http://fonts.cdnfonts.com/css/dread-ringer");
 
+.navbar {
+  position:sticky;
+  top: 0; 
+  width: 100%;
+  display: flex;
+  padding: 1px;
+  background-color: #470f341f;
+  z-index: 1000;
+}
+
+.navbar a {
+float: right;
+color: #eee7e7;
+text-align: center;
+padding: 10px 14px;
+text-decoration: none;
+font-size: 25px;
+}
+
+
+.navbar a:hover {
+background-color: #720660;
+border-radius: 5px;
+}
 
 body {
   background-color: #84a7c4;
   background-image: url(img/tic.png);
   background-repeat: no-repeat;
-  height: 1px;;
+  height: 1px;
   width: 150vw;
   background-size: 110vh  50vw;
 }

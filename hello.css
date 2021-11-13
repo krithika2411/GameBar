@@ -3,9 +3,35 @@ body{
     padding: 0;
     background-size: auto;
     background-position: center;
-    font-family: 'Bunch Blossoms Personal Use', sans-serif;                                              
+    font-family: 'Bunch Blossoms Personal Use', sans-serif;
+    background-image: url(Untitled\ design\ \(4\).png); 
+                                             
 }
 
+.navbar {
+    position:sticky;
+    top: 0; 
+    width: 100%;
+    display: flex;
+    padding: 1px;
+    background-color: #470f341f;
+    z-index: 1000;
+  }
+  
+  .navbar a {
+  float: right;
+  color: #0c0b0b;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 25px;
+  }
+  
+  
+  .navbar a:hover {
+  background-color: #720660;
+  border-radius: 5px;
+  }
 .welcome{
     width: 350px;
     height: 400px;
