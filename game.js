@@ -14,10 +14,10 @@ function init(player, OPPONENT){
   let currentPlayer = player.man;
 
   const xImage = new Image();
-  xImage.src = "img/close.png";
+  xImage.src = "img/x.png";
 
   const oImage = new Image();
-  oImage.src = "img/O.png";
+  oImage.src = "img/o.png";
 
  
   const COMBOS = [

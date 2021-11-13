@@ -1,10 +1,13 @@
+@import url("http://fonts.cdnfonts.com/css/dread-ringer");
 body{
     margin: 0;
     padding: 0;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     font-family: 'Bunch Blossoms Personal Use', sans-serif;
     background-image: url(Untitled\ design\ \(4\).png); 
+    background-repeat: no-repeat;
+    height: 100vh;
                                              
 }
 
@@ -54,30 +57,37 @@ img{
     opacity: 85%;
 }
 
-h1{
+.welcome h1{
     margin: 0%;
-    padding: 0 0 20px;
+    padding: 20px;
     text-align: center;
-    font-size: 50px;
-    font-family: 'Bunch Blossoms Personal Use', sans-serif;
-    color: rgb(233, 202, 202);
+    font-size: 60px;
+    font-family:"Dread Ringer Staggered", sans-serif;
+    color: rgb(7, 62, 78);
+    margin-top: -10vh;
+    margin-left: 2vh;
 }
 
+.welcome span{
+    font-size: 5vh;
+}
 button{
     border: none;
     outline: none;
     height: 50px;
-    width: 22vw;
+    width: 15vw;
+    margin-left: 5vh;
     background: rgb(248, 235, 235);
     color: rgb(255, 255, 255);
     font-size: 25px;
-    font-family: 'Bunch Blossoms Personal Use', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 50px;   
     align-items: center;
 }
 
 a{
     color: rgb(0, 0, 0);
-    font-size: 18px;
-    font-family: 'Bunch Blossoms Personal Use', sans-serif;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
 }

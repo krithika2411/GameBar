@@ -4,8 +4,8 @@ body {
   padding: 0;
   font-family: "Bunch Blossoms Personal Use", sans-serif;
   background-image: url(media/bg3.png);
-  background-repeat: no-repeat;
-  background-size:210vh  100vw ;
+  /* background-repeat: no-repeat; */
+  /* background-size:210vh  100vw ; */
 }
 
 .navbar {
@@ -22,7 +22,7 @@ body {
 .navbar a {
   float: right;
   color: #f1eeee;
-  /* text-align: center; */
+  text-align: center;
   padding: 10px 60px;
   text-align-last: center;
   font-size: 25px;

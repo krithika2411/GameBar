@@ -47,14 +47,14 @@ body{
     text-align: center;
 }
 .details{
-    font-family: 'Pacifico', cursive;
-    font-weight: 400;
+    font-family: "Comfortaa", cursive;
+    font-weight: 900;
     font-size: 30px;
 }
 
 .scores{
     font-family: 'Pacifico', cursive;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 30px;
    
 }
@@ -68,7 +68,7 @@ body{
 }
 #user_choice,
 #computer_choice{
-    font-weight: 400;
+    font-weight: 900;
     margin-bottom: 10px;
 
 }
