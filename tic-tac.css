@@ -1,0 +1,154 @@
+@import url("http://fonts.cdnfonts.com/css/dread-ringer");
+
+
+body {
+  background-color: #84a7c4;
+  background-image: url(img/tic.png);
+  background-repeat: no-repeat;
+  height: 1px;;
+  width: 150vw;
+  background-size: 110vh  50vw;
+}
+.container {
+  width: 650px;
+  height: 650px;
+  display: block;
+  margin: 25px auto;
+  position: relative;
+}
+
+#cvs {
+  position: absolute;
+  border: 5px solid #000;
+}
+
+.options {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+}
+
+.options h1 {
+  text-align: center;
+  font-family: "Dread Ringer Staggered", sans-serif;
+  font-size: 90px;
+  color: rgb(18, 71, 75);
+  margin: 30px 0 20px 0;
+}
+
+.options h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4vh;
+}
+
+.options div {
+  display: inline-block;
+}
+
+.options .computer,
+.x {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5em;
+  border-radius: 5px;
+  margin-left: 130px;
+  /* margin-top: 4vh; */
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.options .friend,
+.o {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5em;
+  border-radius: 5px;
+  margin-left: 50px;
+  /* margin-top: 6vh; */
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.options .friend:hover,
+.computer:hover,
+.x:hover,
+.o:hover {
+  background-color: #011627;
+  color: #fff;
+}
+
+.options .play {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5em;
+  width: 70px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #011627;
+  text-align: center;
+  padding: 10px;
+  background-color: #011627;
+  color: #fff;
+  cursor: pointer;
+  transition: 100ms width ease-in;
+}
+.options .play:hover {
+  width: 110px;
+}
+
+.active {
+  background-color: #011627 !important;
+  color: #fff !important;
+}
+
+.hide {
+  display: none;
+}
+
+.gameover {
+  position: absolute;
+  width: 660px;
+  height: 660px;
+  background-color: rgba(65, 16, 16, 0.95);
+}
+.gameover h1 {
+  text-align: center;
+  font-size: 12vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #fff;
+  margin: 40px 0 20px 0;
+}
+
+.gameover .winner-img {
+  display: block;
+  margin: 20px auto;
+}
+
+.gameover .play {
+  font-family: "Dread Ringer Staggered", sans-serif;
+  font-size: 5vh;
+  width: 180px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 8px;
+  background-color: #fff;
+  color: rgba(14, 13, 13, 0.856);
+  cursor: pointer;
+  transition: 90ms width ease-in;
+}
+.gameover .play:hover {
+  width: 250px;
+}
