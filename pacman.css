@@ -22,8 +22,9 @@ h3{
     flex-wrap: wrap;
     width: 560px;
     height: 560px;
-    border: solid rgb(214, 202, 202);
+    border: 5px solid #fff;
     margin: auto;
+    
 }
   
 .grid div {
@@ -35,13 +36,14 @@ button{
     border: none;
     outline: none;
     height: 40px;
-    width: 20vw;
+    width: 15vw;
     background: rgb(238, 217, 217);
     color: rgb(255, 255, 255);
     font-size: 25px;
     font-family: "Comfortaa", cursive;
     border-radius: 50px;   
-    margin-left: 48vh;
+    margin-left: 84vh;
+    font-weight: 900;
 }
 
 .pac-dot {
