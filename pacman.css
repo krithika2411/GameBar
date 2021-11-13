@@ -1,0 +1,75 @@
+
+body {
+    background-image: url(media/bg3.png);
+    background-size: cover;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: cornsilk;
+    font-size: 200%;
+    font-family: 'Bunch Blossoms Personal Use', sans-serif;
+}
+
+h3{
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid rgb(214, 202, 202);
+    margin: auto;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+    /* color: #111;
+    background: rgb(3, 3, 3);
+    box-shadow: 0 0 100px rgb(217, 255,  0); */
+}
+
+.pac-dot {
+    background-color: green;   
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: rgba(248, 118, 216, 0);
+}
+
+.power-pellet {
+    background-color: rgb(4, 252, 86);
+    border-radius: 10px;
+}
+
+.G1{
+    background-color: red;
+}
+
+.G2 {
+    background-color: pink;
+}
+
+.G3 {
+    background-color: rgb(136, 10, 10);
+}
+
+.G4 {
+    background-color: orange;     
+}
+
+.pac-man {
+    background-color: rgb(255, 238, 0);
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+}
